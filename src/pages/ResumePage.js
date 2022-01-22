@@ -1,6 +1,7 @@
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
-function ResumePage() {
+function ResumePage () {
   return (
     <div className="ResumePage">
       <Container>

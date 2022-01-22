@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import AboutPage from './pages/AboutPage';
@@ -6,7 +7,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
 
-function App() {
+function App () {
   return (
     <div className="App">
       <Navbar>
@@ -15,6 +16,7 @@ function App() {
               <Navbar.Brand href="/">Andrew Vieira</Navbar.Brand>
             </Nav>
             <Nav>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="/resume">Resume</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
@@ -27,6 +29,7 @@ function App() {
         <Route path="/projects" element= { <ProjectsPage/> }/>
         <Route path="/resume" element= { <ResumePage/> }/>
         <Route path="/contact" element= { <ContactPage/> }/>
+        <Route path="*" element= { <Navigate to="/"/> }/>
       </Routes>
     </div>
   );

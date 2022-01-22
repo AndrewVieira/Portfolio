@@ -1,7 +1,8 @@
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import ProjectCard from '../components/ProjectCard';
 
-function ProjectsPage() {
+function ProjectsPage () {
   return (
     <div className="ProjectsPage">
       <Container>
