@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
-import ResumePage from './pages/ResumePage';
+import SkillsPage from './pages/SkillsPage';
 import ContactPage from './pages/ContactPage';
 
 function App () {
@@ -18,7 +18,7 @@ function App () {
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
+              <Nav.Link href="/skills">Skills</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Container>
@@ -27,7 +27,7 @@ function App () {
       <Routes>
         <Route path="/" element= { <AboutPage/> }/>
         <Route path="/projects" element= { <ProjectsPage/> }/>
-        <Route path="/resume" element= { <ResumePage/> }/>
+        <Route path="/skills" element= { <SkillsPage/> }/>
         <Route path="/contact" element= { <ContactPage/> }/>
         <Route path="*" element= { <Navigate to="/"/> }/>
       </Routes>
