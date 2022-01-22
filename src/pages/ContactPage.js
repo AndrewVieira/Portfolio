@@ -1,7 +1,11 @@
+import { Container } from 'react-bootstrap';
+
 function ContactPage() {
   return (
     <div className="ContactPage">
-      <h1>Contact Page</h1>
+      <Container>
+        <h1>Contact Page</h1>
+      </Container>
     </div>
   );
 }

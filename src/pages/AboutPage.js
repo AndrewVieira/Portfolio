@@ -1,7 +1,11 @@
+import { Container } from 'react-bootstrap';
+
 function AboutPage() {
   return (
     <div className="AboutPage">
-      <h1>About Page</h1>
+      <Container>
+        <h1>About Page</h1>
+      </Container>
     </div>
   );
 }

@@ -1,7 +1,11 @@
+import { Container } from 'react-bootstrap';
+
 function ResumePage() {
   return (
     <div className="ResumePage">
-      <h1>Resume Page</h1>
+      <Container>
+        <h1>Resume Page</h1>
+      </Container>
     </div>
   );
 }
