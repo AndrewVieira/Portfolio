@@ -7,6 +7,8 @@ import ProjectsPage from './pages/ProjectsPage';
 import SkillsPage from './pages/SkillsPage';
 import ContactPage from './pages/ContactPage';
 
+import './App.css'
+
 function App () {
   return (
     <div className="App">
