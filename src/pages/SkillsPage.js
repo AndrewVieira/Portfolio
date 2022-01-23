@@ -4,9 +4,9 @@ import SkillCard from '../components/SkillCard';
 
 function SkillsPage () {
   return (
-    <div className="ResumePage">
+    <div className="SkillsPage">
       <Container>
-        <h1>Skills Page</h1>
+        <h1>Skills</h1>
         <Row>
           <Col>
             <SkillCard title="Languages" text="Javascript, C/C++, Python"/>

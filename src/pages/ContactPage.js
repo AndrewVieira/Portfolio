@@ -6,7 +6,7 @@ function ContactPage () {
   return (
     <div className="ContactPage">
       <Container>
-        <h1>Contact Page</h1>
+        <h1>Contact Form</h1>
         <ContactForm/>
       </Container>
     </div>

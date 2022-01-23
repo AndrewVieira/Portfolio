@@ -18,7 +18,7 @@ function ContactForm () {
       </Form.Group>
       <Form.Group>
         <Form.Label htmlFor="email">
-          Email Address
+          Your Email
         </Form.Label>
         <Form.Control id="email" type="email" name="email" />
         <ValidationError prefix="Email" field="email" errors={state.errors}/>
@@ -28,7 +28,7 @@ function ContactForm () {
         <Form.Control id="message" name="message" as="textarea" rows={3} />
         <ValidationError prefix="Message" field="message" errors={state.errors} />
       </Form.Group>
-      <Button type="submit" disabled={state.submitting}>
+      <Button className="w-100" size="lg" type="submit" disabled={state.submitting}>
         Submit
       </Button>
     </Form>

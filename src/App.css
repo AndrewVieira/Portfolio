@@ -2,12 +2,11 @@
 
 body {
   background: #EEEEEE;
-  background-image: "url("/textured_paper.png")";
-  background-repeat: repeat;
 }
 
 .navbar {
-  background: #91C483;;
+  background: #91C483;
+
 }
 
 .navbar-brand {
@@ -15,3 +14,26 @@ body {
   color: #EEEEEE !important;
   font-family: 'Lato', sans-serif;
 }
+
+.card {
+  background: #EEEEEE;
+}
+
+.btn {
+  background: #FF6464;
+  color: #EEEEEE
+}
+
+/* Colors
+FFE162
+FF6464
+91C483
+EEEEEE
+*/
+
+/*
+background-image: url("/public/textured_paper.png");
+background-repeat: repeat;
+background-color:#91C483;
+background-blend-mode: multiply;
+*/
