@@ -24,13 +24,22 @@ body {
 
 .navbar {
   background: #91C483;
-
 }
 
 .navbar-brand {
   font-size: 3em;
   color: #EEEEEE !important;
   font-family: 'Lato', sans-serif;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  color: #EEEEEE !important;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-link:hover {
+  background-color: #EEEEEE44;
 }
 
 .card {
