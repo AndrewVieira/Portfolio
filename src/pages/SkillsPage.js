@@ -10,9 +10,11 @@ function SkillsPage () {
         <Row>
           <Col>
             <SkillCard title="Languages" text="Javascript, C/C++, Python"/>
+            <SkillCard title="Web Technologies" text="HTML, CSS, Bootstrap, ReactJS"/>
           </Col>
           <Col>
             <SkillCard title="Operating Systems" text="Windows, Linux"/>
+            <SkillCard title="Other Technologies" text="PostgreSQL, Git"/>
           </Col>
         </Row>
         <Row>
